@@ -9,7 +9,7 @@ export const Logo = ({ text = "Eternal Love" }: { text?: string }) => {
         border-b border-transparent
         hover:[text-shadow:_0_0_4px_white] hover:border-b hover:border-white"
     >
-      <Link to="/">{text}</Link>
+      <Link to="/CatPortfolio/">{text}</Link>
     </h1>
   );
 };

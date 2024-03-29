@@ -4,7 +4,7 @@ export const Resume = () => {
   return (
     <div className="bg-black text-white min-h-screen py-10">
       <Link
-        to="/"
+        to="/CatPortfolio/"
         className="p-2 px-8 mr-8 absolute bg-black border-2 border-white hover:opacity-50 duration-300 top-25px right-0 rounded-full font-bold"
       >
         Back to Home
