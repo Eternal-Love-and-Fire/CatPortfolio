@@ -8,7 +8,7 @@ import { Resume } from "./Resume";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/CatPortfolio/",
     element: <Root />,
     children: [
       {
@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: '/resume',
+    path: '/CatPortfolio/resume',
     element: <Resume />
   }
 ]);
